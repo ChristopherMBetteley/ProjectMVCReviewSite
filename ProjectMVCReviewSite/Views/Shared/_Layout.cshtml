@@ -6,28 +6,28 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    <link href="~/StyleSheet.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
+    <div class="navbar navbar-fixed-top">
+        <div class="container" id="button">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" id="btn">
+                    <span class="icon-bar" id="bar1"></span>
+                    <span class="icon-bar" id="bar2"></span>
+                    <span class="icon-bar" id="bar3"></span>
                 </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="nav navbar-nav" id="navbartext">
+                    <li id="navbaroption">@Html.ActionLink("Home", "Index", "Reviews")</li>
+                    <li id="navbaroption">@Html.ActionLink("About", "About", "Home")</liid="navbaroption">
+                    <li id="navbaroption">@Html.ActionLink("Contact", "Contact", "Home")</liid="navbaroption">
                 </ul>
             </div>
         </div>
     </div>
-    <div class="container body-content">
+    <div class="container body-content" id="backround">
         @RenderBody()
         <hr />
         <footer>

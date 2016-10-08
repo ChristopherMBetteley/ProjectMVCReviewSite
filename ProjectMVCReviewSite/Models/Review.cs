@@ -19,6 +19,7 @@ namespace ProjectMVCReviewSite.Models
         public string Content { get; set; }
         public string Author { get; set; }
         public float Price { get; set; }
+        public byte[] Image { get; set; }
 
         [ForeignKey("Category")]
         public int CategoryID { get; set; }

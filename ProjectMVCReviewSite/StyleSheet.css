@@ -1,0 +1,111 @@
+﻿body {
+    background-image: unset;
+    /*background-image: url('Images/google-background-13.png');*/
+    background-image: url('Images/google-icons.png');
+    /*background-image: url('Images/google_circles_dark_by_thetechnotoast-d73nllh.png');*/
+    background-size: cover;
+    background-position: center;
+}
+#background{
+    margin-right:0em;
+
+}
+#navbar{
+    border:solid;
+    border-width:medium;
+   border-color:#05A35E;
+   border-radius:20px;
+   background-color:#DFDED8;
+   text-align:center;
+     
+}
+#navbartext{
+       float:none;
+       display:inline-block;
+       
+}
+#navbaroption {
+    margin:0em;
+    font-size:2em;
+    color:#222222;
+    text-decoration-style:solid;
+    text-decoration-line:line-through;
+    text-decoration-color:#FFFFFF;
+
+}
+#navbaroption a{
+    color:#222222;
+}
+#navbaroption p{
+    color:#222222;
+    padding-top:1em;
+    font-weight:bolder;
+    text-decoration-style:solid;
+    text-decoration-line:line-through;
+    text-decoration-color:#FFFFFF;
+}
+#maincontent{
+    padding-right:0em;
+}
+#btn{
+   background-color:#333333;
+   border:solid;
+   border-color:#05A35E;
+   border-radius:20px;
+   width:5em;
+   text-align:center;
+}
+#bar1{
+   border:solid;
+   border-width:3px;
+   border-color:#D64430;
+   border-radius:20px;
+   width:3em;
+   float:none;
+}
+#bar2{
+    border:solid;
+    border-width:3px;
+   border-color:#1D71EF;
+   border-radius:20px;
+   width:3em;
+   float:none;
+}
+#bar3{
+    border:solid;
+    border-width:3px;
+   border-color:#FFB80A;
+   border-radius:20px;
+   width:3em;
+   float:none;
+}
+#sidebar{
+   margin-top:50px;
+   text-align:center;
+   background-color:#DFDED8;
+   border:solid;
+   border-width:medium;
+   border-color:#D64430;
+   border-radius:20px;
+   height:400px;
+}
+#sidebar a{
+    padding-bottom:1.5em;
+}
+#heading{
+    margin-top:50px;
+   background-color:#DFDED8;
+   border:solid;
+   border-width:medium;
+   border-color:#1D71EF;
+   border-radius:20px;
+   height:400px;
+}
+#reviews{
+    background-color:#DFDED8;
+    margin-top:2em;
+    border:solid;
+    border-width:medium;
+    border-color:#FFB80A;
+    border-radius:20px
+}
