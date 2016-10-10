@@ -29,6 +29,8 @@
     text-decoration-style:solid;
     text-decoration-line:line-through;
     text-decoration-color:#FFFFFF;
+    font-family: 'Noto Sans', sans-serif;
+
 
 }
 #navbaroption a{
@@ -41,6 +43,8 @@
     text-decoration-style:solid;
     text-decoration-line:line-through;
     text-decoration-color:#FFFFFF;
+    font-family: 'Noto Sans', sans-serif;
+
 }
 #maincontent{
     padding-right:0em;
@@ -86,6 +90,8 @@
    border-color:#D64430;
    border-radius:20px;
    height:400px;
+   font-family: 'Noto Sans', sans-serif;
+
 }
 #sidebar a{
     padding-bottom:1.5em;
@@ -98,6 +104,8 @@
    border-color:#1D71EF;
    border-radius:20px;
    height:400px;
+   font-family: 'Noto Sans', sans-serif;
+
 }
 #reviews {
     margin-top: 2em;
@@ -105,7 +113,8 @@
     border-width: medium;
     border-color: #FFB80A;
     border-radius: 20px;
-    background-color:#DFDED8
+    background-color:#DFDED8;
+    font-family: 'Noto Sans', sans-serif;
 }
 #backbutton{
     font-size:2em;
@@ -119,4 +128,6 @@
    border-radius:20px;
    background-color:#DFDED8;
    text-align:center;
+   font-family: 'Noto Sans', sans-serif;
+
 }
