@@ -169,6 +169,26 @@
     <Compile Include="Migrations\201610080008180_AddedImageToDataBase.Designer.cs">
       <DependentUpon>201610080008180_AddedImageToDataBase.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201610080343419_ImageUpload.cs" />
+    <Compile Include="Migrations\201610080343419_ImageUpload.Designer.cs">
+      <DependentUpon>201610080343419_ImageUpload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610080353064_ImageURL.cs" />
+    <Compile Include="Migrations\201610080353064_ImageURL.Designer.cs">
+      <DependentUpon>201610080353064_ImageURL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610080355484_ImageURLTwo.cs" />
+    <Compile Include="Migrations\201610080355484_ImageURLTwo.Designer.cs">
+      <DependentUpon>201610080355484_ImageURLTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610080439174_ImageByteArray.cs" />
+    <Compile Include="Migrations\201610080439174_ImageByteArray.Designer.cs">
+      <DependentUpon>201610080439174_ImageByteArray.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610101506585_FinalMigration.cs" />
+    <Compile Include="Migrations\201610101506585_FinalMigration.Designer.cs">
+      <DependentUpon>201610101506585_FinalMigration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\ProjectMVCReviewSiteContext.cs" />
@@ -266,6 +286,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201610080008180_AddedImageToDataBase.resx">
       <DependentUpon>201610080008180_AddedImageToDataBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610080343419_ImageUpload.resx">
+      <DependentUpon>201610080343419_ImageUpload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610080353064_ImageURL.resx">
+      <DependentUpon>201610080353064_ImageURL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610080355484_ImageURLTwo.resx">
+      <DependentUpon>201610080355484_ImageURLTwo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610080439174_ImageByteArray.resx">
+      <DependentUpon>201610080439174_ImageByteArray.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610101506585_FinalMigration.resx">
+      <DependentUpon>201610101506585_FinalMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -1,8 +1,6 @@
 ﻿body {
     background-image: unset;
-    /*background-image: url('Images/google-background-13.png');*/
-    background-image: url('Images/google-icons.png');
-    /*background-image: url('Images/google_circles_dark_by_thetechnotoast-d73nllh.png');*/
+    /*background-image: url('Images/google-icons.png');*/
     background-size: cover;
     background-position: center;
 }
@@ -101,11 +99,24 @@
    border-radius:20px;
    height:400px;
 }
-#reviews{
-    background-color:#DFDED8;
-    margin-top:2em;
+#reviews {
+    margin-top: 2em;
+    border: solid;
+    border-width: medium;
+    border-color: #FFB80A;
+    border-radius: 20px;
+    background-color:#DFDED8
+}
+#backbutton{
+    font-size:2em;
+    
+}
+#detailsjumbo{
+    margin:4em;
     border:solid;
     border-width:medium;
-    border-color:#FFB80A;
-    border-radius:20px
+   border-color:#D64430;
+   border-radius:20px;
+   background-color:#DFDED8;
+   text-align:center;
 }

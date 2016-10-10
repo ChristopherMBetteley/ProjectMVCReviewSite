@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using ProjectMVCReviewSite.Models;
+using System.Web.Helpers;
 
 namespace ProjectMVCReviewSite.Controllers
 {
@@ -48,7 +49,7 @@ namespace ProjectMVCReviewSite.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,Name,PublishDate,Content,Author,Price,CategoryID,Image")] Review review)
+        public ActionResult Create([Bind(Include = "ID,Name,PublishDate,Content,Author,Price,CategoryID")] Review review)
         {
             if (ModelState.IsValid)
             {
@@ -76,13 +77,14 @@ namespace ProjectMVCReviewSite.Controllers
             ViewBag.CategoryID = new SelectList(db.Categories, "Id", "Name", review.CategoryID);
             return View(review);
         }
+   
 
         // POST: Reviews/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,Name,PublishDate,Content,Author,Price,CategoryID,Image")] Review review)
+        public ActionResult Edit([Bind(Include = "ID,Name,PublishDate,Content,Author,Price,CategoryID")] Review review)
         {
             if (ModelState.IsValid)
             {

@@ -72,3 +72,8 @@ c:\users\wecancodeit\documents\visual studio 2015\Projects\ProjectMVCReviewSite\
 c:\users\wecancodeit\documents\visual studio 2015\Projects\ProjectMVCReviewSite\ProjectMVCReviewSite\obj\Debug\ProjectMVCReviewSite.Migrations.InitialCreate.resources
 c:\users\wecancodeit\documents\visual studio 2015\Projects\ProjectMVCReviewSite\ProjectMVCReviewSite\obj\Debug\ProjectMVCReviewSite.csproj.GenerateResource.Cache
 c:\users\wecancodeit\documents\visual studio 2015\Projects\ProjectMVCReviewSite\ProjectMVCReviewSite\obj\Debug\ProjectMVCReviewSite.Migrations.AddedImageToDataBase.resources
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\ProjectMVCReviewSite\ProjectMVCReviewSite\obj\Debug\ProjectMVCReviewSite.Migrations.ImageUpload.resources
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\ProjectMVCReviewSite\ProjectMVCReviewSite\obj\Debug\ProjectMVCReviewSite.Migrations.ImageURL.resources
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\ProjectMVCReviewSite\ProjectMVCReviewSite\obj\Debug\ProjectMVCReviewSite.Migrations.ImageURLTwo.resources
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\ProjectMVCReviewSite\ProjectMVCReviewSite\obj\Debug\ProjectMVCReviewSite.Migrations.ImageByteArray.resources
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\ProjectMVCReviewSite\ProjectMVCReviewSite\obj\Debug\ProjectMVCReviewSite.Migrations.FinalMigration.resources

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Drawing;
 using System.Linq;
 using System.Web;
 
@@ -19,10 +20,10 @@ namespace ProjectMVCReviewSite.Models
         public string Content { get; set; }
         public string Author { get; set; }
         public float Price { get; set; }
-        public byte[] Image { get; set; }
 
         [ForeignKey("Category")]
         public int CategoryID { get; set; }
         public virtual Category Category { get; set; }
+        
     }
 }
